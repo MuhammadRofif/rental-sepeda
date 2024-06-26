@@ -1,1 +1,1 @@
-rentalz.streamlit.app
+https://rentalz.streamlit.app/
