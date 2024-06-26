@@ -14,7 +14,7 @@ def holiday_df(df):#Mengelompokkan data
     avg_holiday = df.groupby('holiday')['cnt'].mean().reset_index().sort_values("cnt")
     return avg_holiday
 
-all_df = pd.read_csv("https://raw.githubusercontent.com/MuhammadRofif/rental-sepeda/main/dashboard/all_data.csv") #Memuat berkas yang csv
+all_df = pd.read_csv("https://github.com/MuhammadRofif/rental-sepeda/blame/87b26c8f4937652dc0f3470448326493baaf91ca/dashboard/all_data.csv") #Memuat berkas yang csv
 
 with st.sidebar:
     # Menambahkan logo perusahaan
